@@ -353,7 +353,6 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
               {{/if}} -->
                 <div class="col-xs-12 center_text">
               <!--     {{#if equals language "fr"}}  -->
-                  <a href="tel:514-507-2600" class="btn btn-biggab">Réserve ta place au 514-507-2600</a>
                       <p>Même pas game de réserver ta place</p>
                       <form action="http://formspree.io/gabrieldancause@gmail.com" role="form" method="POST" autocomplete="on">
                         <div class="form-group">
@@ -363,7 +362,7 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
                           <input type="email" name="_replyto" class="form-control form-input" placeholder="Ton courriel" required>
                         </div>
                         <div>
-                          <input type="submit" class="btn btn-primary" value="Envoyer">
+                          <input id="form-reservation" type="submit" class="btn btn-primary" value="Envoyer">
                           <input type="hidden" name="_subject" value="New submission!" />
                         </div>
                       </form>
@@ -490,17 +489,6 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
                       info or reservation : <a href="tel:514-507-2600">514-507-2600</a> or <a href="mailto:info@gabinc.co">info@gabinc.co</a>
                       {{/if}}  -->
                       </p>
-                      <h2>Même pas game de réserver une place <br /><small>On va te contacter dans 5 minutes</small></h2>
-                      <form action="http://formspree.io/gabrieldancause@gmail.com" role="form" method="POST" autocomplete="on">
-
-                        <div class="form-group">
-                          <input type="email" name="_replyto" class="form-control form-input" placeholder="Ton courriel" required>
-                        </div>
-                        <div>
-                          <input type="submit" class="btn btn-primary" value="Envoyer">
-                          <input type="hidden" name="_subject" value="New submission!" />
-                        </div>
-                      </form>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6  center_text">
@@ -531,7 +519,7 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
           				<form action="http://gabinc.us3.list-manage.com/subscribe/post?u=8efe9943c708b2da9f838d442&amp;id=fea468a0b5" method="post"  class="col-xs-12" style="padding-left:0px;padding-right:0px;">
     				        <div class="input-group input-group-lg">
   				              <input type="text" class="center-block form-control input-lg input-gab" title="{{_ "Your email" }}" placeholder="toncourriel@memepas.game" name="EMAIL">
-      				          <span class="input-group-btn"><button class="btn btn-gab" type="submit">OK</button></span>
+      				          <span class="input-group-btn"><button id="form-infolettre" class="btn btn-gab" type="submit">OK</button></span>
                             </div>
                         </form>
 
