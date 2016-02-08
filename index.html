@@ -30,6 +30,13 @@
 </head>
 
 <body>
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-59XTHV"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-59XTHV');</script>
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -286,11 +293,35 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
               <div class="col-xs-12 col-sm-8 col-md-6 left_text lead_small">
 
               Services : Internet haute vitesse, 15% de rabais sur les produits en vente, lounge, cuisinette, amène-ta-bouffe, chauffage et climatisation, service d’entretien ménager, caméras de surveillance, services de réceptionniste, cabine téléphonique, système d’échange de connaissances et ambiance unique. Tarifs préférentiels sur des évènements, 5@7, formations, ateliers et réseautage.
+<<<<<<< HEAD
 
                 <div class="col-xs-12 center_text">
 
                   <a href="tel:514-507-2600" class="btn btn-biggab">Réserve ta place au 514-507-2600</a>
 
+=======
+             <!--  {{else}} 
+              Services: high speed internet, 15% discount on products for sale, lounge, kitchen, bring your food, heating and air conditioning, housekeeping service, surveillance cameras, receptionist services, phone booth, knowledge exchange and unique atmosphere. Preferential rates on events, 5 to 7, trainings, workshops and networking.
+              {{/if}} -->
+                <br /><br /><div class="col-xs-12 center_text">
+              <!--     {{#if equals language "fr"}}  -->
+                      <h2>Même pas game de réserver ta place</h2>
+                      <form action="http://formspree.io/gabrieldancause@gmail.com" role="form" method="POST" autocomplete="on">
+                        <div class="form-group">
+                          <input type="name" name="name" class="form-control form-input" placeholder="Ton nom" required>
+                        </div>
+                        <div class="form-group">
+                          <input type="email" name="_replyto" class="form-control form-input" placeholder="Ton courriel" required>
+                        </div>
+                        <div>
+                          <input id="form-reservation" type="submit" class="btn btn-primary" value="Envoyer">
+                          <input type="hidden" name="_subject" value="New submission!" />
+                        </div>
+                      </form>
+               <!--    {{else}}
+                  <a href="tel:514-507-2600" class="btn btn-biggab">Reserve your place at 514-507-2600</a>
+                  {{/if}}  -->
+>>>>>>> 75366f823668db8655a27863c2e3ed10825433d9
                 </div>
               </div> 
             </div>
@@ -381,6 +412,7 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
                       <b>GAB</b> <br />
 
                       4815-A Boul. Saint-Laurent Montréal H2T 1R6<br />
+<<<<<<< HEAD
                       info ou réservation : <a href="tel:514-507-2600">514-507-2600</a> ou <a href="mailto:info@gabinc.co">info@gabinc.co</a>
 
                       </p>
@@ -395,6 +427,14 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
                           <input type="hidden" name="_subject" value="New submission!" />
                         </div>
                       </form>
+=======
+                      info ou réservation : <a id="id-tel" href="tel:514-507-2600">514-507-2600</a> ou <a id="id-mail" href="mailto:info@gabinc.co">info@gabinc.co</a>
+                      <!-- {{else}}
+                      4815-A Saint-Laurent Blvd Montreal H2T 1R6<br />
+                      info or reservation : <a href="tel:514-507-2600">514-507-2600</a> or <a href="mailto:info@gabinc.co">info@gabinc.co</a>
+                      {{/if}}  -->
+                      </p>
+>>>>>>> 75366f823668db8655a27863c2e3ed10825433d9
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6  center_text">
@@ -422,8 +462,13 @@ et nous ne buvons que l’eau du fleuve. On est très local.</p>
 
           				<form action="http://gabinc.us3.list-manage.com/subscribe/post?u=8efe9943c708b2da9f838d442&amp;id=fea468a0b5" method="post"  class="col-xs-12" style="padding-left:0px;padding-right:0px;">
     				        <div class="input-group input-group-lg">
+<<<<<<< HEAD
   				              <input type="text" class="center-block form-control input-lg input-gab" title="Ton courriel" placeholder="toncourriel@memepas.game" name="EMAIL">
       				          <span class="input-group-btn"><button class="btn btn-gab" type="submit">OK</button></span>
+=======
+  				              <input type="text" class="center-block form-control input-lg input-gab" title="{{_ "Your email" }}" placeholder="toncourriel@memepas.game" name="EMAIL">
+      				          <span class="input-group-btn"><button id="form-infolettre" class="btn btn-gab" type="submit">OK</button></span>
+>>>>>>> 75366f823668db8655a27863c2e3ed10825433d9
                             </div>
                         </form>
 
