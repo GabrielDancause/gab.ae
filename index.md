@@ -1,3 +1,2 @@
-## Le premier café pour travailler.
-## De l'Univers.
+## Le premier café pour travailler de l'Univers.
 
