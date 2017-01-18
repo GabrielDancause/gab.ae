@@ -1,5 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: http://gab-46564.onmodulus.net/Coffee_sitemap.xml
-Sitemap: http://gab-46564.onmodulus.net/Posts_sitemap.xml
